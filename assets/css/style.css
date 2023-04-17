@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  color: white;
+}
+nav .media {
+  width: 20%;
+  height: 60px;
+  background-color: red;
+  padding: 15px;
+}
+nav .sp {
+  width: 80%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(233, 80, 80);
+}
+nav .sp span {
+  padding: 17px;
+}
+nav .sp img {
+  border-radius: 50%;
+}
+
+.container1 {
+  background-color: rgb(5, 5, 21);
+  width: 20%;
+  height: 590px;
+}
+.container1 nav ul li {
+  line-height: 20px;
+  margin-left: 25px;
+  margin: 20px;
+}
+.container1 h3 {
+  background-color: gray;
+  width: 107%;
+  height: 30px;
+  padding: 5px;
+  color: red;
+}
+.container1 h3 i {
+  margin-left: 100px;
+  color: black;
+}
+.container1 img {
+  border-radius: 50%;
+}
+.container1 span {
+  color: red;
+}
+
+.common {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2 {
+  width: 80%;
+  background-color: rgb(31, 30, 30);
+}
+.container2 .row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 66.6666666667%;
+  margin: 4px;
+}
+.container2 h2 {
+  color: white;
+}
+.container2 p {
+  color: rgb(58, 96, 96);
+}
+
+.new {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(31, 30, 30);
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+  padding: 15px;
+}
+
+h1 {
+  color: white;
+}
+
+.row p {
+  color: red;
+}
+.row h3 {
+  color: white;
+}
+.row .bal {
+  text-align: center;
+  color: white;
+  border: 1px solid orange;
+  width: 30px;
+  height: 18px;
+  border-radius: 20px;
+  background-color: orange;
+  position: relative;
+  top: 5px;
+  left: 60px;
+}
+.row .img {
+  width: 150px;
+  height: 200px;
+  background-size: 100%;
+  background-position: center;
+}
+.row .img i {
+  font-size: 60px;
+  color: white;
+  padding: 70px 50px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.row .img:hover i {
+  color: white;
+  opacity: 0.6;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
